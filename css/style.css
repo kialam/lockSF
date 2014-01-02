@@ -37,7 +37,9 @@ ul {
 
 .bridge1 {
 	display: block;
-	text-indent: -9999px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 	width: 150px;
 	height: 150px;
 	background: url(../images/BridgeHexDark.svg);
@@ -52,8 +54,9 @@ ul {
 
 .bridge2 {
 	display: block;
-	text-indent: -9999px;
-	width: 150px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;	width: 150px;
 	height: 150px;
 	background: url(../images/BridgeHexLight.svg);
 	background-size: 150px 150px;
@@ -67,8 +70,9 @@ ul {
 
 .bridge3 {
 	display: block;
-	text-indent: -9999px;
-	width: 150px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;	width: 150px;
 	height: 150px;
 	background: url(../images/BridgeHexMed.svg);
 	background-size: 150px 150px;
