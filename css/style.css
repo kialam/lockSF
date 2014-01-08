@@ -16,10 +16,32 @@ p {
 }
 
 .wrapper {
-	width: 600px;
+	width: 530px;
 	margin: 0 auto;
 	text-align: center;
 }
+
+.wrapper2 {
+	width: 320px;
+	margin-left: 75px;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.italic {
+	font-family: 'adelle', serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.time {
+	font-family: 'proxima-nova', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 img {
 	max-width: 100%;
 }
@@ -38,8 +60,11 @@ a:visited {
 
 ul {
 	list-style-type: none;
+	padding: 0;
 }
-
+li {
+	font-family: 'adelle', serif;
+}
 .bridge1 {
 	display: block;
 	text-indent: 100%;
@@ -188,13 +213,14 @@ ul {
 	color: #602721;
 	/*line-height: 0px;*/
 	padding-bottom:20px;
-	font-weight: 400;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
 #slide1 p {
 	text-align: center;
 	color: #602721;
+	font-size: 1.25em;
 }
 
 
@@ -207,8 +233,9 @@ ul {
 	color:#ffffff;
 }
 #slide2 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
+	/*font-size: 3.8em;*/
+	font-size: 2em;
+	/*letter-spacing: -3px;*/
 	line-height: 0px;
 	color:#ffffff;
 	font-weight: 700;
@@ -233,8 +260,9 @@ ul {
 	background-color:#602721;
 }
 #slide3 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
+	/*font-size: 3.8em;*/
+	font-size: 2em;
+	/*letter-spacing: -3px;*/
 	line-height: 0px;
 	color:#fffbeb;
 	font-weight: 700;
@@ -247,6 +275,13 @@ ul {
 	padding-bottom:20px;
 	font-weight: 400;
 }
+
+#slide3 h3 {
+	border-bottom: 1px solid #d26147;
+	display: inline;
+	text-transform: uppercase;
+}
+
 #test{
 	background-color:#bde2df;
 	color:#ffffff;
