@@ -11,6 +11,10 @@ body {
 	background-color:#ffffff;
 }
 
+p {
+	font-family: "adelle", serif;
+}
+
 .wrapper {
 	width: 600px;
 	margin: 0 auto;
