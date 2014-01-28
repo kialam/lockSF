@@ -15,9 +15,18 @@ p {
 	font-family: "adelle", serif;
 }
 
+.print {
+	font-style: italic;
+	color: #d26147;
+}
+
+.box {
+	border: 6px solid;
+}
+
 .wrapper {
 	width: 530px;
-	margin: 0 auto;
+	margin: 50px auto;
 	text-align: center;
 }
 
@@ -34,6 +43,10 @@ p {
 	font-family: 'adelle', serif;
 	font-weight: 400;
 	font-style: italic;
+}
+
+.align {
+	padding-top: 60px;
 }
 
 .time {
@@ -63,7 +76,9 @@ ul {
 	padding: 0;
 }
 li {
-	font-family: 'adelle', serif;
+	/*font-family: 'adelle', serif;*/
+	font-family: 'proxima-nova', sans-serif;
+	/*font-weight: 700;*/
 }
 .bridge1 {
 	display: block;
@@ -145,13 +160,21 @@ li {
 #logo h1 {
 	margin: 0;
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 18px;
 	display: inline-block;
-	padding-top: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#logo h4 {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 70px;
 }
 #nav {
 	text-align: right;
-	margin: 30px 0 0 0;
+	margin: 20px 0 0 0;
 }
 .navigation{
 	float: right;
@@ -159,6 +182,7 @@ li {
 	margin: 0;
 }
 .navigation li{
+	font-family: "proxima-nova",sans-serif;
 	float: left;
 	margin:0 0 0 20px;
 	color: #fffbeb;
@@ -235,6 +259,8 @@ li {
 #slide2 h1 {
 	/*font-size: 3.8em;*/
 	font-size: 2em;
+	display: inline;
+	padding: 10px;
 	/*letter-spacing: -3px;*/
 	line-height: 0px;
 	color:#ffffff;
@@ -261,6 +287,8 @@ li {
 }
 #slide3 h1 {
 	/*font-size: 3.8em;*/
+	display: inline;
+	padding: 10px;
 	font-size: 2em;
 	/*letter-spacing: -3px;*/
 	line-height: 0px;
@@ -277,8 +305,8 @@ li {
 }
 
 #slide3 h3 {
-	border-bottom: 1px solid #d26147;
-	display: inline;
+	/*border-bottom: 1px solid #d26147;
+	display: inline;*/
 	text-transform: uppercase;
 }
 
@@ -301,11 +329,14 @@ li {
 	color:#ffffff;
 }
 #slide4 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
+	display: inline;
+	padding: 10px;
+	/*font-size: 3.8em;*/
+	/*letter-spacing: -3px;*/
 	line-height: 0px;
 	color:#602721;
 	font-weight: 700;
+	text-transform: uppercase;
 
 }
 #slide4 h2 {
@@ -315,8 +346,29 @@ li {
 	padding-bottom:20px;
 	font-weight: 400;
 }
+
+#slide4 h3 {
+	color: #602721;
+	text-transform: uppercase;
+	/*text-align: center;*/
+}
 #slide4 p {
 	color: #602721;
+	padding-top: 90px;
+}
+
+#slide4 li {
+	color: #602721;
+	list-style: none;
+	font-family: 'adelle', serif;
+}
+#slide4 img {
+	/*padding-left: 40px;*/
+}
+
+.wrapper3 {
+	width: 216px;
+	margin-left: 75px;
 }
 
 /*Slide 5 */
