@@ -402,10 +402,11 @@ li {
 #slide5 h4 {
 	font-family: 'adelle', serif;
 	font-weight: 300;
+	margin-top: 0;
 }
 
 #slide5 p {
-	color: #602721;
+	color: #ffffff;
 	font-family: 'adelle', serif;
 	font-weight: 300;
 }
@@ -480,6 +481,13 @@ li {
 	font-family: 'adelle', serif;
 }
 
+
+/* Judges Section */
+/*.judges {
+	width: 700px;
+	margin: 10px auto 0;
+}
+*/
 /* Tablet */
 @media screen and (max-width: 1024px) {
 
