@@ -222,7 +222,7 @@ li {
 
 /* Slide 1 */ 
 
-#slide1{
+#slide1 {
 	background-color:#fffbeb;
 }
 #slide1 h1 {
@@ -249,14 +249,15 @@ li {
 
 
 
+
 /* Slide 2 */ 
 
-#slide2{
+#slide2, #slide8 {
 	/*background-image:url('../images/footprints.png');*/
 	background-color:#d26147;
 	color:#ffffff;
 }
-#slide2 h1 {
+#slide2 h1, #slide8 h1 {
 	/*font-size: 3.8em;*/
 	font-size: 2em;
 	display: inline;
@@ -267,7 +268,7 @@ li {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-#slide2 h2 {
+#slide2 h2, #slide h2 {
 	font-size: 2em;
 	color: #ffffff;
 	line-height: 0px;
@@ -275,7 +276,7 @@ li {
 	font-weight: 400;
 }
 
-#slide2 h3 {
+#slide2 h3, #slide8 h3 {
 	text-transform: uppercase;
 }
 
@@ -378,11 +379,16 @@ li {
 	color:#ffffff;
 }
 #slide5 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
+	/*font-size: 3.8em;*/
+	/*letter-spacing: -3px;*/
+	font-family: 'proxima-nova', sans-serif;
+	display: inline;
+	padding: 10px;
 	line-height: 0px;
 	color:#ffffff;
 	font-weight: 700;
+	text-transform: uppercase;
+	/*text-align: center;*/
 
 }
 #slide5 h2 {
@@ -392,8 +398,16 @@ li {
 	padding-bottom:20px;
 	font-weight: 400;
 }
+
+#slide5 h4 {
+	font-family: 'adelle', serif;
+	font-weight: 300;
+}
+
 #slide5 p {
 	color: #602721;
+	font-family: 'adelle', serif;
+	font-weight: 300;
 }
 
 /* Slide 6 */
@@ -403,11 +417,14 @@ li {
 	color:#ffffff;
 }
 #slide6 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
+	/*font-size: 3.8em;*/
+	/*letter-spacing: -3px;*/
+	display: inline;
+	padding: 10px;
 	line-height: 0px;
-	color:#ffffff;
+	color:#fffbeb;
 	font-weight: 700;
+	text-transform: uppercase;
 
 }
 #slide6 h2 {
@@ -421,6 +438,47 @@ li {
 	color: #fffbeb;
 }
 
+
+/* Slide 7 */ 
+
+#slide7 {
+	background-color:#fffbeb;
+}
+#slide7 h1 {
+	/*font-size: 3.8em;*/
+	/*letter-spacing: -3px;*/
+	display: inline;
+	padding: 10px;
+	line-height: 0px;
+	color:#602721;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#slide7 h2 {
+	font-size: 2em;
+	color: #602721;
+	/*line-height: 0px;*/
+	padding-bottom:20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#slide7 h3 {
+	color: #602721;
+	font-family: 'proxima-nova', sans-serif;
+	font-size: 20px;
+}
+
+#slide7 p {
+	/*text-align: center;*/
+	font-weight: 300;
+	color: #602721;
+	font-size: 16px;
+}
+
+#slide7 li {
+	color: #602721;
+	font-family: 'adelle', serif;
+}
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
