@@ -372,7 +372,7 @@ li {
 	margin-left: 75px;
 }
 
-/*Slide 5 */
+/*Slide 5 Judges */
 #slide5{
 	/*background-image:url('../images/sunglasses.png');*/
 	background-color:#d26147;
@@ -411,7 +411,12 @@ li {
 	font-weight: 300;
 }
 
-/* Slide 6 */
+.judgesWrapper {
+	margin: 0 auto;
+	width: 700px;
+}
+
+/* Slide 6 Partners */
 #slide6{
 	/*background-image:url('../images/sunglasses.png');*/
 	background-color:#602721;
@@ -430,7 +435,7 @@ li {
 }
 #slide6 h2 {
 	font-size: 2em;
-	color: #ffffff;
+	color: #fffbeb;
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
@@ -439,8 +444,14 @@ li {
 	color: #fffbeb;
 }
 
+#slide6 img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-/* Slide 7 */ 
+
+/* Slide 7 FAQs */ 
 
 #slide7 {
 	background-color:#fffbeb;
@@ -481,6 +492,25 @@ li {
 	font-family: 'adelle', serif;
 }
 
+.faqWrapper {
+	margin: 0 auto;
+	width: 700px;
+}
+
+/* Slide 8 Register Section */
+
+#slide8 h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+#slide8 img {
+display: block;
+margin-top: 0;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 20px;
+}
 
 /* Judges Section */
 /*.judges {
