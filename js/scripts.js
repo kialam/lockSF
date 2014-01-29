@@ -35,12 +35,20 @@ jQuery(document).ready(function ($) {
         }
     });
     //Create a function that will be passed a slide number and then will scroll to that slide using jquerys animate. The Jquery
-    //easing plugin is also used, so we passed in the easing method of 'easeInOutQuint' which is available throught the plugin.
+    //easing plugin is also used, so we passed in the easing method of 'easeInOutQuint' which is available throughout the plugin.
     function goToByScroll(dataslide) {
         htmlbody.animate({
             scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
-        }, 2000, 'easeInOutQuint');
+        }, 1600, 'easeInOutQuart');
     }
+
+    // Stops auto scrolling if user clicks or scrolls
+    $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup', function(e){
+        if ( e.which > 0 || e.type == "mousedown" || e.type == "mousewheel"){
+            $("html,body").stop();
+        }
+    });
+
     //When the user clicks on the navigation links, get the data-slide attribute value of the link and pass that variable to the goToByScroll function
     links.click(function (e) {
         e.preventDefault();
