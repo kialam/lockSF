@@ -33,6 +33,12 @@ jQuery(document).ready(function ($) {
             $('.navigation li[data-slide="1"]').addClass('active');
             $('.navigation li[data-slide="2"]').removeClass('active');
         }
+        // since the register section height is shorter, set an event for when the scrollbar reaches the bottom of page and assign the active
+        //class to the register link in the navbar.
+        if(mywindow.scrollTop() + mywindow.height() > $(document).height() - 100) {
+            $('.navigation li[data-slide="8"]').addClass('active');
+            $('.navigation li[data-slide="7"]').removeClass('active');
+        }
     });
     //Create a function that will be passed a slide number and then will scroll to that slide using jquerys animate. The Jquery
     //easing plugin is also used, so we passed in the easing method of 'easeInOutQuint' which is available throughout the plugin.
@@ -40,12 +46,13 @@ jQuery(document).ready(function ($) {
         htmlbody.animate({
             scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
         }, 1600, 'easeInOutQuart');
+        
     }
 
     // Stops auto scrolling if user clicks or scrolls
-    $('body,html').bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup', function(e){
+    htmlbody.bind('scroll mousedown wheel DOMMouseScroll mousewheel keyup', function(e){
         if ( e.which > 0 || e.type == "mousedown" || e.type == "mousewheel"){
-            $("html,body").stop();
+            htmlbody.stop();
         }
     });
 
