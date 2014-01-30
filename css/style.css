@@ -52,8 +52,12 @@ p {
 	font-style: italic;
 }
 
+.company {
+	font-weight: 100;
+}
+
 .align {
-	padding-top: 60px;
+	padding-top: 61px;
 }
 
 .time {
@@ -182,6 +186,7 @@ li {
 	font-size: 14px;
 	font-weight: 400;
 	padding-left: 70px;
+	width: 98px;
 }
 #nav {
 	text-align: right;

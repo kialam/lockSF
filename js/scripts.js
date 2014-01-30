@@ -62,6 +62,14 @@ jQuery(document).ready(function ($) {
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
     });
+
+    //When user clicks on the hackathon logo, get the data-slide attribute value of the link and pass that variable to the goToByScroll function
+    $('#logo').find('a').click(function (e) {
+        e.preventDefault();
+        dataslide = $(this).attr('data-slide');
+        goToByScroll(dataslide);
+    });
+
     //When the user clicks on the button, get the get the data-slide attribute value of the button and pass that variable to the goToByScroll function
     button.click(function (e) {
         e.preventDefault();
