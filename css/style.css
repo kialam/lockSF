@@ -13,6 +13,10 @@ body {
 	/*height: 1439px;*/
 }
 
+h1, h3 {
+	letter-spacing: 0.0625em;
+}
+
 p {
 	font-family: "adelle", serif;
 }
@@ -33,7 +37,7 @@ p {
 }
 
 .wrapper2 {
-	width: 320px;
+	width: 325px;
 	margin-left: 75px;
 }
 
@@ -265,7 +269,7 @@ li {
 	background-color:#d26147;
 	color:#ffffff;
 }
-#slide2 h1, #slide8 h1 {
+#slide2 h1 {
 	/*font-size: 3.8em;*/
 	font-size: 2em;
 	display: inline;
@@ -276,6 +280,7 @@ li {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+
 #slide2 h2, #slide h2 {
 	font-size: 2em;
 	color: #ffffff;
@@ -517,10 +522,23 @@ li {
 }
 
 /* Slide 8 Register Section */
+#slide8 h1 {
+	/*font-size: 3.8em;*/
+	font-size: 2em;
+	display: inline;
+	padding: 10px;
+	/*letter-spacing: -3px;*/
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.0625em;
+}
 
 #slide8 h2 {
 	font-size: 30px;
 	text-transform: uppercase;
+	letter-spacing: 0.0625em;
 }
 
 #slide8 img {
