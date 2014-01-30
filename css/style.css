@@ -540,7 +540,20 @@ padding-bottom: 20px;
 #slide9 p {
 	font-family: 'proxima-nova', sans-serif;
 	display: inline;
-	font-size: 12px;
+	font-size: 15px;
+	color: #fff;
+	position: relative;
+	bottom: 21px;
+	letter-spacing: 0.0625em;
+	font-weight: 600;
+}
+
+#slide9 img {
+	margin-top: 15px;
+}
+
+footer {
+	margin-left: 55px;
 }
 
 /* Judges Section */
