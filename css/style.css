@@ -186,7 +186,7 @@ li {
 	font-size: 14px;
 	font-weight: 400;
 	padding-left: 70px;
-	width: 101px;
+	width: 104px;
 }
 #nav {
 	text-align: right;
@@ -673,7 +673,10 @@ footer {
 #slide4 h2 {
 	line-height: 1em;
 }
-
+#slide8 h1 {
+	line-height: 1em;
+	display: inline-block;
+}
 }
 
 
@@ -682,9 +685,13 @@ footer {
 /* Mobile */
 @media screen and (max-width: 480px) {
 
+/*body {
+	overflow-x: hidden;
+}
+*/
 #logo {
 	width: 100%;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 #nav {
@@ -731,6 +738,7 @@ footer {
 }
 #slide3 h1 {
 	line-height: 1em;
+	display: inline-block;
 }
 #slide3 h2 {
 	line-height: 1em;
