@@ -37,7 +37,7 @@ p {
 }
 
 .wrapper2 {
-	width: 337px;
+	width: 338px;
 	margin-left: 75px;
 }
 
@@ -552,6 +552,10 @@ margin-top: 0;
 margin-left: auto;
 margin-right: auto;
 padding-bottom: 20px;
+}
+
+#slide8 a {
+	color: #fff;
 }
 
 /* Footer */
