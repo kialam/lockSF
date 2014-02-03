@@ -635,7 +635,9 @@ footer {
 
 .wrapper, .faqWrapper, .wrapper2, .wrapper3, .judgesWrapper {
 	width: 100%;
-	margin: 0;
+	/*margin: 0;*/
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #decorative {
@@ -739,8 +741,6 @@ footer {
 #slide4 h2 {
 	line-height: 1em;
 }
-
-
 }
 
 

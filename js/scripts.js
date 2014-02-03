@@ -17,7 +17,8 @@ jQuery(document).ready(function ($) {
 
         //If the user scrolls up change the navigation link that has the same data-slide attribute as the slide to active and
         //remove the active class from the previous navigation link
-        if (direction === 'down') {
+        if (direction == 'down') {
+            console.log('added class');
             $('.navigation li[data-slide="' + newDataslide + '"]').addClass('active').prev().removeClass('active');
         //     console.log('dir down; fired');
         }
@@ -39,10 +40,10 @@ jQuery(document).ready(function ($) {
         }
         // since the register section height is shorter, set an event for when the scrollbar reaches the bottom of page and assign the active
         //class to the register link in the navbar.
-        if(mywindow.scrollTop() + mywindow.height() > $(document).height() - 100) {
-            $('.navigation li[data-slide="8"]').addClass('active');
-            $('.navigation li[data-slide="7"]').removeClass('active');
-        }
+        // if(mywindow.scrollTop() + mywindow.height() > $(document).height() - 100) {
+        //     $('.navigation li[data-slide="8"]').addClass('active');
+        //     $('.navigation li[data-slide="7"]').removeClass('active');
+        // }
     });
     //Create a function that will be passed a slide number and then will scroll to that slide using jquerys animate. The Jquery
     //easing plugin is also used, so we passed in the easing method of 'easeInOutQu' which is available throughout the plugin.
