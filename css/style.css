@@ -78,7 +78,7 @@ a:link {
 	text-decoration: none;
 }
 a:hover {
-	color: #bde2df;
+	/*color: #bde2df;*/
 	text-decoration: none;
 }
 a:visited {
@@ -267,7 +267,7 @@ li {
 
 
 
-/* Slide 2 */ 
+/* Slide 2 About */ 
 
 #slide2, #slide8 {
 	/*background-image:url('../images/footprints.png');*/
@@ -298,6 +298,10 @@ li {
 	text-transform: uppercase;
 }
 
+#slide2 a {
+	color: #602721;
+	font-weight: 400;
+}
 
 /* Slide 3 */ 
 
@@ -436,6 +440,10 @@ li {
 
 #slide5 .grid_2 img {
 	margin-top: 21px;
+}
+
+#slide5 a {
+	color: #fff;
 }
 
 .judgesWrapper {
