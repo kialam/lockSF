@@ -11,6 +11,7 @@ body {
 	background-color:#ffffff;
 	/*overflow: hidden;*/
 	/*height: 1439px;*/
+	overflow-x:hidden;
 }
 
 h1, h3 {
