@@ -156,10 +156,10 @@ li {
 .menu {
 	position:fixed;
 	top:0px;
-	left: 50%;
-	margin-left: -480px;
-	/*width:100%; */
-	width: 960px;
+	/*left: 50%;*/
+	/*margin-left: -480px;*/
+	width:100%; 
+	/*width: 960px;*/
 	height:auto; 
 	background-color:#2b251d;
 	z-index:100;
@@ -222,14 +222,18 @@ li {
 	border-bottom: 2px solid #d26147;
 }
 
-
+#nav #facebook {
+	background: url('../images/fb.png');
+	height: 20px;
+	height: 20px;
+}
 
 /* General Slides */ 
 
 .slide{
 	background-attachment: fixed;
 	/*width:100%;*/
-	max-width: 960px;
+	/*max-width: 960px;*/
 	margin: 0 auto;
 	height:auto;
 	position: relative;
@@ -569,7 +573,7 @@ padding-bottom: 20px;
 
 /* Footer */
 #slide9 {
-	background-color: #000;
+	background-color: #2b251d;
 	padding: 0;
 }
 
@@ -589,7 +593,7 @@ padding-bottom: 20px;
 }
 
 footer {
-	margin-left: 55px;
+	margin-left: 130px;
 }
 
 /* Judges Section */
@@ -604,7 +608,7 @@ footer {
 #logo {
 	width: 100%;
 	/*text-align: center;*/
-	margin-left: 340px;
+	/*margin-left: 340px;*/
 }
 
 #nav {
@@ -641,6 +645,9 @@ footer {
 	margin-right: auto;
 }
 
+footer {
+	margin-left: 0;
+}
 #decorative {
 	display:none;
 }
