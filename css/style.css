@@ -222,10 +222,29 @@ li {
 	border-bottom: 2px solid #d26147;
 }
 
-#nav #facebook {
+li.facebook {
 	background: url('../images/fb.png');
 	height: 20px;
-	height: 20px;
+	width: 20px;
+	/*padding: 40px 0 0 0;*/
+	/*overflow: hidden;*/
+	/*height: 0;*/
+	background-repeat: no-repeat;
+	/*display: block;*/
+	text-indent: -9999px;
+}
+
+li.twitter {
+	background: url('../images/twitter.png');
+	height: 25px;
+	width: 25px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+li span {
+	/*display: none;*/
+	/*text-indent: -9999px;*/
 }
 
 /* General Slides */ 
@@ -614,7 +633,7 @@ footer {
 #nav {
 	width:100%;
 	/*text-align:center;*/
-	margin:10px 0 0 150px;
+	/*margin:10px 0 0 150px;*/
 }
 
 .navigation{
