@@ -55,13 +55,13 @@
 					<li class="goTo" data-slide="7">FAQ</li>
 					<li class="goTo" data-slide="8">Register</li>
 					<li> | </li>
-					<li><a href="#" onclick="
+					<li class="facebook"><a href="#" onclick="
 		    			window.open(
 		    			  'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('http://www.letshacksf.com/'), 
 		    			  'facebook-share-dialog', 
 		    			  'width=626,height=436'); 
-		    			return false;"><img src="images/fb.png"></a></li>
-		    		<li><a class="tweet" href="http://www.letshacksf.com" target="_blank" title="Whether you're a Creative or a Coder, Goodby Silverstein &amp; Partners invites you to Hack SF."><img src="images/twitter.png"></a></li>
+		    			return false;"></a></li>
+		    		<li class="twitter"><a class="tweet" href="http://www.letshacksf.com" target="_blank" title="Come hack SF! Art directors, copywriters, coders, strategists and PMs, join us for a hackathon to improve our city."></a></li>
 				</ul>
 			</div>
 
@@ -358,7 +358,7 @@
 		  //We get the title of the link
 		  var title  = escape($(this).attr('title'));
 		  //We trigger a new window with the Twitter dialog, in the middle of the page
-		  window.open('http://twitter.com/share?url=' + loc + '&text=' + title + '&', 'twitterwindow', 'height=4width=550, top='+($(window).height()/2 - 225) +', left='+$(window).width()/2 +', toolbar=0, locationmenubar=0, directories=0, scrollbars=0');
+		  window.open('http://twitter.com/share?url=' + loc + '&text=' + title + '&', 'twitterwindow', 'height=400, width=550, top='+($(window).height()/2 - 225) +', left='+$(window).width()/2 +', toolbar=0, locationmenubar=0, directories=0, scrollbars=0');
 		});
 	</script>	
 	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
