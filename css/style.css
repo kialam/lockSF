@@ -463,6 +463,11 @@ li span {
 	font-weight: 600;
 }
 
+#slide5 h3.company {
+	font-weight: 100;
+	margin: 0;
+}
+
 #slide5 h4 {
 	font-family: 'adelle', serif;
 	font-weight: 300;
@@ -485,7 +490,7 @@ li span {
 
 .judgesWrapper {
 	margin: 0 auto;
-	width: 700px;
+	width: 750px;
 }
 
 /* Slide 6 Partners */
