@@ -42,6 +42,12 @@ p {
 	margin-left: 75px;
 }
 
+.wrapperedc {
+	width: 700px;
+	margin: 50px auto;
+	text-align: center;
+}
+
 .upper {
 	text-transform: uppercase;
 	font-weight: 600;
@@ -571,7 +577,7 @@ li span {
 	margin-left: 45px;
 }
 
-.faqWrapper {
+.contentWrapper {
 	margin: 50px auto;
 	width: 700px;
 }
