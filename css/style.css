@@ -286,11 +286,12 @@ li span {
 	background-color:#fffbeb;
 }
 #slide1 h1 {
-	font-size: 3.8em;
-	letter-spacing: -3px;
+	display: inline;
+	padding: 10px;
 	line-height: 0px;
-	color:#8a8683;
+	color:#602721;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 #slide1 h2 {
 	font-size: 2em;
@@ -301,6 +302,14 @@ li span {
 	text-transform: uppercase;
 }
 
+#slide1 h3 {
+	font-size: 2em;
+	color: #602721;
+	/*line-height: 0px;*/
+	padding-bottom:20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
 #slide1 p {
 	text-align: center;
 	color: #602721;
@@ -580,6 +589,10 @@ li span {
 .contentWrapper {
 	margin: 50px auto;
 	width: 700px;
+}
+
+#slide1 .contentWrapper p {
+	text-align: left;
 }
 
 /* Slide 8 Register Section */
